@@ -1,4 +1,5 @@
-<img width="593" height="333" alt="image" src="https://github.com/user-attachments/assets/4a4d5858-2c72-4359-bfaf-59a794c3e099" />
+DOCUMENTACION PROYECTO INTELIGENCIA ARTIFICIAL 1
+
 
 Este documento detalla el procedimiento técnico estándar para empaquetar los archivos estáticos (index.html, style.css, script.js), 
 inicializar el control de versiones local con Git, publicarlos en un repositorio remoto de GitHub y configurar su despliegue automatizado en la web 
@@ -36,6 +37,9 @@ o	Asigna un nombre al repositorio (por ejemplo, genesis-architecture-portfolio).
 o	Configura la visibilidad en modo Public (necesario para habilitar GitHub Pages de forma gratuita) y no selecciones la opción de agregar archivo README, LICENSE o .gitignore (ya que tu proyecto local se encargará de esto).
 
 o	Haz clic en Create repository.
+
+<img width="593" height="333" alt="image" src="https://github.com/user-attachments/assets/4a4d5858-2c72-4359-bfaf-59a794c3e099" />
+
 
 <img width="626" height="352" alt="image" src="https://github.com/user-attachments/assets/5dd99037-a08d-4ba3-b5e3-4a9713c2294a" />
 
