@@ -1,4 +1,4 @@
-
+<img width="593" height="333" alt="image" src="https://github.com/user-attachments/assets/4a4d5858-2c72-4359-bfaf-59a794c3e099" />
 
 Este documento detalla el procedimiento técnico estándar para empaquetar los archivos estáticos (index.html, style.css, script.js), 
 inicializar el control de versiones local con Git, publicarlos en un repositorio remoto de GitHub y configurar su despliegue automatizado en la web 
@@ -66,7 +66,47 @@ Haz clic en la pestaña de configuración (Settings), ubicada en la barra superi
   Recarga la página de Pages y verás en la parte superior la URL pública oficial generada (con estructura [https://tu-usuario.github.io/nombre-repositorio/](https://tu-usuario.github.io/nombre-repositorio/)), la cual estará activa y lista para compartir.
 
 
+Fase 2: Publicación y Despliegue en GitHub Pages
+1.	Acceso a las Preferencias del Repositorio:
+
+
+o	Dirígete a la interfaz web de tu repositorio en GitHub.
+
+o	Haz clic en la pestaña de configuración (Settings), ubicada en la barra superior de opciones del repositorio.
+
+<img width="593" height="333" alt="image" src="https://github.com/user-attachments/assets/72994b1a-fed5-49ad-b5e6-878a48fdfd05" />
 
 
 
+2.	Configuración de Páginas:
+
+
+o	En el menú lateral izquierdo, busca la sección de automatización y despliegue, y haz clic en Pages.
+
+3.	Definición de la Fuente de Despliegue (Build and deployment):
+
+
+o	En el apartado Source, asegúrate de que la opción seleccionada sea Deploy from a branch.
+
+o	Bajo la sección Branch, selecciona la rama main en el primer menú desplegable y deja la carpeta en la raíz (/ (root)) en el segundo menú.
+
+o	Haz clic en el botón Save.
+
+
+<img width="798" height="448" alt="image" src="https://github.com/user-attachments/assets/437e7f5c-403b-4d1c-9baf-f19535dfd375" />
+
+
+4.	Verificación de URL Pública:
+
+
+o	Tras guardar la configuración, GitHub procesará los archivos estáticos de manera automatizada en un par de minutos.
+
+o	Recarga la página de Pages y verás en la parte superior la URL pública oficial generada (con estructura [https://tu-usuario.github.io/nombre-repositorio/](https://tu-usuario.github.io/nombre-repositorio/)), la cual estará activa y lista para compartir.
+
+
+<img width="895" height="503" alt="image" src="https://github.com/user-attachments/assets/d6f87b20-02b2-420b-b60d-9505381779b0" />
+
+
+
+<img width="895" height="503" alt="image" src="https://github.com/user-attachments/assets/73af9651-fa8c-43df-a651-a7fc669e1417" />
 
