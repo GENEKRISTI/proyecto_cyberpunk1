@@ -1,0 +1,170 @@
+:root {
+    --bg-space: #07060d;
+    --bg-card: #12101f;
+    --gold: #ffd700;
+    --pink: #ff2a85;
+    --white: #ffffff;
+    --text-muted: #b8b5cc;
+}
+
+body.bg-cyber {
+    background-color: var(--bg-space);
+    color: var(--white);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.font-orbitron { font-family: 'Orbitron', sans-serif; }
+.font-rajdhani { font-family: 'Rajdhani', sans-serif; }
+
+.text-gold { color: var(--gold) !important; }
+.text-pink { color: var(--pink) !important; }
+.text-light-50 { color: var(--text-muted) !important; }
+
+/* Navbar flotante */
+.cyber-nav {
+    background: rgba(7, 6, 13, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 42, 133, 0.2);
+}
+.cyber-nav .nav-link {
+    color: var(--white) !important;
+    transition: color 0.3s;
+}
+.cyber-nav .nav-link:hover {
+    color: var(--gold) !important;
+}
+
+/* Avatar Frame */
+.hero-avatar-frame {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--pink));
+    padding: 3px;
+}
+.avatar-box {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-space);
+    border-radius: 50%;
+}
+
+/* Badge */
+.badge-cyber {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 0.85rem;
+    border-radius: 4px;
+}
+
+/* Cyber Cards */
+.cyber-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.cyber-card:hover {
+    border-color: var(--pink);
+    box-shadow: 0 0 20px rgba(255, 42, 133, 0.3);
+    transform: translateY(-5px);
+}
+
+/* Botones personalizados */
+.btn-cyber-gold {
+    background: transparent;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.btn-cyber-gold:hover {
+    background: var(--gold);
+    color: var(--bg-space);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.btn-cyber-pink {
+    background: transparent;
+    border: 2px solid var(--pink);
+    color: var(--pink);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.btn-cyber-pink:hover {
+    background: var(--pink);
+    color: var(--white);
+    box-shadow: 0 0 15px rgba(255, 42, 133, 0.5);
+}
+
+/* Filtros */
+.btn-filter {
+    background: var(--bg-card);
+    border: 1px solid var(--text-muted);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.btn-filter.active, .btn-filter:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--bg-space);
+    font-weight: bold;
+}
+
+/* Badges soft */
+.bg-pink-soft { background: rgba(255, 42, 133, 0.15); }
+.bg-gold-soft { background: rgba(255, 215, 0, 0.15); }
+
+/* Redes sociales y footer */
+.social-icon {
+    color: var(--white);
+    background: var(--bg-card);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    transition: 0.3s;
+}
+.social-icon:hover {
+    color: var(--gold);
+    border-color: var(--pink);
+    box-shadow: 0 0 10px var(--pink);
+}
+
+/* Botón Volver Arriba */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: var(--gold);
+    color: var(--bg-space);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    transition: 0.3s;
+}
+#backToTop:hover {
+    background: var(--pink);
+    color: var(--white);
+}
+
+.avatar-box img {
+    object-fit: cover;
+    border-radius: 50%;
+}
